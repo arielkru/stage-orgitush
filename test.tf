@@ -16,4 +16,10 @@ resource "aws_sns_topic" "example3" {
 }
 
 resource "aws_s3_bucket" "test1" {
+    versioning {
+    enabled = true
+  }
+}
+
+resource "aws_s3_bucket" "test2" {
 }
