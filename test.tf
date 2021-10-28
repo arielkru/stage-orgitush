@@ -14,3 +14,6 @@ resource "aws_sns_topic" "example3" {
     Owner       = "apps-team"
   }
 }
+
+resource "aws_s3_bucket" "test1" {
+}
