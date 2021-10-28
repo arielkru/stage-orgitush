@@ -41,3 +41,6 @@ resource "aws_s3_bucket" "test2" {
   }
 }
 
+resource "aws_s3_bucket" "test3" {
+}
+
